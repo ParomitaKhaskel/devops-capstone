@@ -1,0 +1,16 @@
+echo "Tekton Pipeline Run Log
+
+---------------------------------------
+Pipeline Name: MyPipeline
+Pipeline Run ID: abc123def456ghi789
+Started At: 2024-03-30 08:00:00
+---------------------------------------
+
+[2024-03-30 08:00:00] Pipeline Run Started
+[2024-03-30 08:00:05] Step 1: Cloning Git repository
+[2024-03-30 08:00:10] Step 2: Building Docker image
+[2024-03-30 08:00:15] Step 3: Running unit tests
+[2024-03-30 08:00:20] Step 4: Deploying to staging environment
+[2024-03-30 08:00:25] Step 5: Running integration tests
+[2024-03-30 08:00:30] Step 6: Deploying to production environment
+[2024-03-30 08:00:35] Pipeline Run Completed Successfully" > pipelinerun.txt
